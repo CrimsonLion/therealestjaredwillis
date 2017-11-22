@@ -1,0 +1,252 @@
+
+/*================= Base Element Styles=============*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: black;
+    color: white;
+    font-family: "Times New Roman", Garamond, serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Header Elements */
+
+.img-logo1 {
+    max-width: 60%;
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+
+
+
+/* Banner & Logo elements */
+
+.tagline {
+    max-width: 75%;
+    font-size: 1.15em;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+/* About Me Section elements */
+
+.my-pic {
+    max-width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0px auto;
+}
+
+.about-text {
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Web Project Elements */
+
+.projimg {
+    max-width: 75%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5%;
+}
+
+.project-text {
+    font-size: 1.25em;
+}
+
+.link {
+    color: blue;
+}
+
+/*---------------Footer Elements--------------*/
+.social-media {
+    padding-top: 15px;
+}
+
+.social-media li {
+    padding-top: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    display: inline;
+}
+
+.mail-button {
+    max-width: 50px;
+}
+
+.fb-button {
+    max-width: 50px;
+}
+
+.ig-button {
+    max-width: 50px;
+}
+
+/*===================Layout====================*/
+
+/*Navigation*/
+
+nav {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.main-nav li {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 2px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+}
+
+.main-nav li a {
+    padding: 10px;
+}
+
+/*-----Layout Containers-----*/
+
+#top {
+    background-color: black;
+    padding-bottom: 30px;
+}
+
+.main-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.main-header {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#banner {
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+
+#about {
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.about-col {
+    padding-bottom: 25px;
+}
+
+#services {
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+
+#webprojects {
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+}
+
+.projdiv-col {
+    padding-bottom: 20px;
+}
+
+#bottom {
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+
+#bottom a {
+    color: blue;
+}
+
+
+/*============= Media Queries ================*/
+
+@media (min-width:368px) {}
+
+@media (min-width:768px) {
+    .projdiv-col {
+        max-width: 40%;
+        display: inline-block;
+        margin-left: 40px;
+        margin-right: 40px;
+        vertical-align: top;
+    }
+
+    .about-col {
+        max-width: 30%;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .projdiv-col {
+        max-width: 30%;
+        display: inline-block;
+    }
+
+    .projimg {
+        max-width: 100%;
+    }
+}
+
+@media (min-width:1100px) {
+    .projdiv-col {
+        max-width: 25%;
+        display: inline-block;
+        margin: 0 30 5 30;
+    }
+}
