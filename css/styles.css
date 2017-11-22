@@ -1,0 +1,303 @@
+
+/*================= Base Element Styles=============*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #5a5c51;
+    color: white;
+    font-family: "Times New Roman", Garamond, serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+body {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.p2 {
+    font-weight: bold
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    font-family: Rajdhani;
+    font-size: 1.8em;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+/* Header Elements */
+
+.img-logo1 {
+    max-width: 60%;
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+
+
+
+/* Banner & Logo elements */
+
+.tagline {
+    max-width: 75%;
+    font-size: 1.15em;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+/* About Me Section elements */
+
+.about-col-1 {
+    max-width: 80%;
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.about-col-2 {
+    max-width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: middle; 
+}
+
+.my-pic {
+    max-width: 80%;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px auto;
+    box-shadow: 2px 5px 25px 5px #888888;
+}
+
+.about-text {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: center;
+
+}
+
+/* Project Elements */
+
+.projimg {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5%;
+    max-width: 100%;
+}
+
+.project-text {
+    font-size: 1.25em;
+}
+
+.link {
+    color: blue;
+}
+
+/*---------------Footer Elements--------------*/
+
+/*===================Layout====================*/
+
+
+
+/*Navigation*/
+
+nav {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.main-nav li {
+    display: inline-block;
+    font-family: Rajdhani;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 2px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+}
+
+.main-nav li a {
+    padding: 10px;
+}
+
+/*-----Layout Containers-----*/
+
+#top {
+    background-color: #1d2120;
+}
+
+.container {
+    box-shadow: 5px 5px 35px 5px #000000; 
+}
+
+.main-container {
+    max-width: 100%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 35px 5px #000000; 
+}
+
+.main-header {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#banner {
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+
+#about {
+    padding-top: 30px;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #ede9ce;
+    color: black;
+    padding-bottom: 30px;
+}
+
+#webprojects {
+    padding-top: 30px;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #1d2120;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.projdiv-col {
+    padding-bottom: 20px;
+    max-width: 100%;
+    margin:0 auto;
+}
+
+#blog {
+    padding-top: 30px;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #ede9ce;
+    color: black;
+    padding-bottom: 30px;
+}
+
+#bottom {
+    padding-top: 30px;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #1d2120;
+    color: black;
+}
+
+============ Media Queries ================*/
+@media (min-width: 320px) {
+    body {
+        width: 95%;
+    }
+
+    .projdiv-col {
+        max-width: 100%;
+        display: inline-block;
+        margin-left: 25px;
+        margin-right: 25px;
+        vertical-align: top;
+    }
+
+    .projimg {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 450px) {
+
+    .about-col-1 {
+        max-width: 40%;
+        display: inline-block;
+        margin: 0 auto;
+        vertical-align: middle;
+    }
+
+    .about-col-2 {
+        max-width: 40%;
+        display: inline-block;
+        margin: 0 auto;
+        padding-left: 10%;
+        vertical-align: middle; 
+    }
+
+    .my-pic {
+        max-width: 100%;
+        border-radius: 50%;
+    }
+
+    .about-text {
+        font-size: 1.8em;
+        max-width: 100%;
+
+    }
+
+}
+
+@media (min-width:768px) {
+    
+    body {
+        max-width: 80%;
+    }
+
+    .projdiv-col {
+        max-width: 40%;
+        display: inline-block;
+        margin-left: 25px;
+        margin-right: 25px;
+        vertical-align: top;
+    }
+
+}
+
+@media (min-width:1100px) {
+    .projdiv-col {
+        max-width: 25%;
+        display: inline-block;
+        margin: 0 30 5 30;
+    }
+}
